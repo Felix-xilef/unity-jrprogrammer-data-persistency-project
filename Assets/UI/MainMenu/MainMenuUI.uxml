@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=7c81a6fee3c276c4fa199f82ae32544d&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement class="container">
+        <ui:GroupBox style="min-width: 200px;">
+            <ui:Label tabindex="-1" text="Best Score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="best-score-text" class="best-score" />
+            <ui:TextField picking-mode="Ignore" value="Enter Name" name="username-input" class="username-input" />
+            <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start-button" class="action-button start-button" style="background-color: rgb(169, 222, 157); border-left-color: rgb(50, 191, 74); border-right-color: rgb(50, 191, 74); border-top-color: rgb(50, 191, 74); border-bottom-color: rgb(50, 191, 74); color: rgb(51, 192, 75);" />
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-button" class="action-button exit-button" style="background-color: rgb(230, 140, 140); color: rgb(220, 48, 48); border-left-color: rgb(221, 48, 48); border-right-color: rgb(221, 48, 48); border-top-color: rgb(221, 48, 48); border-bottom-color: rgb(221, 48, 48);" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

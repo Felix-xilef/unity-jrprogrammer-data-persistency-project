@@ -1,0 +1,37 @@
+VisualElement {
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(223, 223, 223);
+    border-right-color: rgb(223, 223, 223);
+    border-top-color: rgb(223, 223, 223);
+    border-bottom-color: rgb(223, 223, 223);
+    background-color: rgb(143, 143, 143);
+    color: rgb(222, 222, 222);
+    -unity-font-style: bold;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    width: 80px;
+}
+
+.back-button:hover {
+    width: 120px;
+    color: rgb(242, 144, 93);
+    border-left-color: rgb(242, 145, 93);
+    border-right-color: rgb(242, 145, 93);
+    border-top-color: rgb(242, 145, 93);
+    border-bottom-color: rgb(242, 145, 93);
+    background-color: rgb(168, 138, 120);
+}
